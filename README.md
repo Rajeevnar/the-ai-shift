@@ -12,7 +12,6 @@
     <img src="https://img.shields.io/github/forks/rajeevnar/the-ai-shift?style=for-the-badge&logo=github&color=7C3AED&labelColor=1a1a2e&logoColor=white" alt="Forks"/>
   </a>
   <img src="https://img.shields.io/badge/License-MIT-8B5CF6?style=for-the-badge&labelColor=1a1a2e" alt="License"/>
-  <img src="https://img.shields.io/badge/Powered%20by-Claude%20AI-A78BFA?style=for-the-badge&logo=anthropic&labelColor=1a1a2e&logoColor=white" alt="Claude AI"/>
 </p>
 
 <!-- BADGES ROW 2 -->
@@ -63,38 +62,39 @@ We open source them because the best way to prove AI works is to **let people us
 ### 📣 Marketing
 | Tool | Description | Stack | Status |
 |---|---|---|---|
-| [🤖 LinkedIn Newsletter Generator](./marketing/linkedin-newsletter-generator) | Researches live trends & writes full newsletter articles in your voice | Claude AI · React · Web Search | ✅ Live |
-| 📊 LinkedIn Post Generator | Coming soon | Claude AI | 🔜 Soon |
-| 🎯 Content Calendar AI | Coming soon | Claude AI | 🔜 Soon |
+| [🤖 LinkedIn Newsletter Generator](./marketing/linkedin-newsletter-generator) | Researches live trends & writes full newsletter articles in your voice | React · Web Search | ✅ Live |
+| 📊 LinkedIn Post Generator | Coming soon | AI | 🔜 Soon |
+| 🎯 Content Calendar AI | Coming soon | AI | 🔜 Soon |
 
 ### 🛒 Ecommerce
 | Tool | Description | Stack | Status |
 |---|---|---|---|
-| 🛍️ AI Product Configurator | Bespoke product configuration powered by AI | Claude AI · Magento | 🔜 Soon |
-| 📦 Inventory Intelligence Agent | Predict stockouts & auto-generate purchase orders | Claude AI · Shopify | 🔜 Soon |
-| 🔍 Competitor Monitor Agent | Track competitor pricing & product changes automatically | Claude AI | 🔜 Soon |
+| 🛍️ AI Product Configurator | Bespoke product configuration powered by AI | AI · Magento | 🔜 Soon |
+| 📦 Inventory Intelligence Agent | Predict stockouts & auto-generate purchase orders | AI · Shopify | 🔜 Soon |
+| 🔍 Competitor Monitor Agent | Track competitor pricing & product changes automatically | AI | 🔜 Soon |
+| 🧾 Quote Generator | Best for B2B and B2C businesses | AI | 🔜 Soon |
 
 ### 👥 Recruitment
 | Tool | Description | Stack | Status |
 |---|---|---|---|
-| 🧠 TalentBridge ATS | AI-powered applicant tracking system | Claude AI · G-Cloud 15 | 🔜 Soon |
-| 📝 Job Description Generator | Write role-specific JDs in seconds | Claude AI | 🔜 Soon |
+| 🧠 TalentBridge ATS | AI-powered applicant tracking system | AI · G-Cloud 15 | 🔜 Soon |
+| 📝 Job Description Generator | Write role-specific JDs in seconds | AI | 🔜 Soon |
 
 ### 🎓 Education
 | Tool | Description | Stack | Status |
 |---|---|---|---|
-| 📚 OpenLearn AI | AI teacher assistant & LMS | Claude AI · G-Cloud 15 | 🔜 Soon |
-| 🧑‍🏫 Lesson Plan Generator | Generate curriculum-aligned lesson plans | Claude AI | 🔜 Soon |
+| 📚 OpenLearn AI | AI teacher assistant & LMS | AI · G-Cloud 15 | 🔜 Soon |
+| 🧑‍🏫 Lesson Plan Generator | Generate curriculum-aligned lesson plans | AI | 🔜 Soon |
 
 ### 🏥 Healthcare
 | Tool | Description | Stack | Status |
 |---|---|---|---|
-| 🩺 Patient Triage Assistant | AI-assisted symptom triage tool | Claude AI | 🔜 Soon |
+| 🩺 Patient Triage Assistant | AI-assisted symptom triage tool | AI | 🔜 Soon |
 
 ### 💰 Finance
 | Tool | Description | Stack | Status |
 |---|---|---|---|
-| 📈 Financial Report Summariser | Turn complex reports into plain English briefs | Claude AI | 🔜 Soon |
+| 📈 Financial Report Summariser | Turn complex reports into plain English briefs | AI | 🔜 Soon |
 
 ---
 
@@ -116,7 +116,7 @@ Each tool has its own `README.md` with setup instructions. Most run in under 5 m
 
 **Step 4 — Get your API key**
 
-Most tools are powered by Claude AI. Get your free API key at [console.anthropic.com](https://console.anthropic.com)
+Most tools require an API key. Check each tool's README for setup instructions.
 
 ---
 
@@ -139,7 +139,6 @@ Every newsletter edition → drives people back to the repo.
 ## 🛠️ Tech Stack
 
 <p>
-  <img src="https://img.shields.io/badge/Claude%20AI-Anthropic-D97706?style=for-the-badge&logo=anthropic&logoColor=white&labelColor=1a1a2e"/>
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black&labelColor=1a1a2e"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=1a1a2e"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=1a1a2e"/>
