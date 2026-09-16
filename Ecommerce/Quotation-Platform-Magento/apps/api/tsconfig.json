@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": false,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": false,
+    "esModuleInterop": true
+  },
+  // Pins tsc's rootDir inference to src/ explicitly. Without this, any TS
+  // file added elsewhere in the project (e.g. the Vercel serverless entry
+  // at api/index.ts) changes tsc's inferred common root from src/ to the
+  // project root, which nests everything under dist/src/* instead of
+  // dist/*.js — silently breaking Render's `node dist/main` start command.
+  // api/index.ts is intentionally excluded from this build: it's compiled
+  // separately, by Vercel's own bundler, when deployed there.
+  "include": ["src/**/*"]
+}

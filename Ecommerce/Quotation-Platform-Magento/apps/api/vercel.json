@@ -1,0 +1,10 @@
+{
+  "buildCommand": "npm install --include=dev && npx prisma generate && npm run build",
+  "rewrites": [{ "source": "/(.*)", "destination": "/api/index" }],
+  "regions": ["pdx1"],
+  "functions": {
+    "api/index.ts": {
+      "includeFiles": "node_modules/.prisma/client/**"
+    }
+  }
+}
